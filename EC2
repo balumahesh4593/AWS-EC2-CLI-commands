@@ -1,0 +1,17 @@
+CREATE A INSTANCE ON EC2 
+aws ec2 run-instances --image-id ami-04bde106886a53080 --count 1 --instance-type t2.micro --key-name iam --security-group-ids sg-0c8b04c80be648125 --subnet-id subnet-02d0ab26fe356b833 --region ap-south-1
+
+TO START THE INSTANCES ON EC2
+aws ec2 start-instances --instance-ids i-1234567890abcdef0
+
+TO STOP THE INSTANCES ON EC2
+aws ec2 stop-instances --instance-ids i-1234567890abcdef0
+
+TO TERMINATE THE ON INSTANCES ON EC2
+aws ec2 terminate-instances --instance-ids i-1234567890abcdef0
+
+MONITORING THE INSTANCES ON EC2
+aws ec2 monitor-instances --instance-ids i-1234567890abcdef0
+
+
+https://docs.aws.amazon.com/cli/latest/reference/ec2/index.html
