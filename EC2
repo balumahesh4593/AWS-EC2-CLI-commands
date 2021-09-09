@@ -14,4 +14,5 @@ MONITORING THE INSTANCES ON EC2
 aws ec2 monitor-instances --instance-ids i-1234567890abcdef0
 
 
+EC2 INSTANCES CLI COMMANDS URL BELOW IF ANY DOUBT ON EC2 CLI THE BELOW URL USE
 https://docs.aws.amazon.com/cli/latest/reference/ec2/index.html
