@@ -20,3 +20,6 @@ https://docs.aws.amazon.com/cli/latest/reference/ec2/index.html
 
 describe-instances
 https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html
+
+AWS Command Line Interface 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-instances.html
